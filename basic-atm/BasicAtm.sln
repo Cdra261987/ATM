@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0587E83C-DC19-4925-89EB-2AA4205600B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmApp", "src\AtmApp\AtmApp.csproj", "{313AD355-3E63-4FD4-AAAC-57DAC54C7B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{0348E66B-BF53-4D8C-8731-2194EE8A550D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBankApp", "src\OnlineBankApp\OnlineBankApp.csproj", "{6D6822DB-C316-40B4-B5E4-D6D839169518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313AD355-3E63-4FD4-AAAC-57DAC54C7B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313AD355-3E63-4FD4-AAAC-57DAC54C7B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313AD355-3E63-4FD4-AAAC-57DAC54C7B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313AD355-3E63-4FD4-AAAC-57DAC54C7B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0348E66B-BF53-4D8C-8731-2194EE8A550D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0348E66B-BF53-4D8C-8731-2194EE8A550D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0348E66B-BF53-4D8C-8731-2194EE8A550D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0348E66B-BF53-4D8C-8731-2194EE8A550D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6822DB-C316-40B4-B5E4-D6D839169518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6822DB-C316-40B4-B5E4-D6D839169518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6822DB-C316-40B4-B5E4-D6D839169518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6822DB-C316-40B4-B5E4-D6D839169518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{313AD355-3E63-4FD4-AAAC-57DAC54C7B52} = {0587E83C-DC19-4925-89EB-2AA4205600B2}
+		{0348E66B-BF53-4D8C-8731-2194EE8A550D} = {0587E83C-DC19-4925-89EB-2AA4205600B2}
+		{6D6822DB-C316-40B4-B5E4-D6D839169518} = {0587E83C-DC19-4925-89EB-2AA4205600B2}
+	EndGlobalSection
+EndGlobal
